@@ -40,6 +40,13 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
   <script src="https://cdn.plot.ly/plotly-2.26.0.min.js" charset="utf-8"></script>
+  <script>
+    TESTER = document.getElementById('tester');
+    Plotly.newPlot( TESTER, [{
+    x: [1, 2, 3, 4, 5],
+    y: [1, 2, 4, 8, 16] }], {
+    margin: { t: 0 } } );
+</script>
 </head>
 <body>
 
@@ -301,18 +308,7 @@
   </div>
 </section>
 
-<script>
-  TESTER = document.getElementById('tester');
-  Plotly.newPlot( TESTER, [{
-  x: [1, 2, 3, 4, 5],
-  y: [1, 2, 4, 8, 16] }], {
-  margin: { t: 0 } } );
-</script>
-  
-<section class="section">
-  <div id="tester"> </div>
-</section>
-
+<div id="tester"> </div>
 
 <section class="section">
   <div class="container is-max-desktop">
