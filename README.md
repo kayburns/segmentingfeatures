@@ -1,14 +1,13 @@
-# Nerfies
+# Spatial Features
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [Spatial Feat website](https://kayburns.github.io/spatialfeatures/). Please see our preprint for more details
 
-If you find Nerfies useful for your work please cite:
+If you find our paper useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{burns2023WhatMakesPVR
+  author    = {},
+  title     = {What Makes Pre-Trained Visual Representations Successful for Robust Manipulation?},
+  year      = {2023},
 }
 ```
 
