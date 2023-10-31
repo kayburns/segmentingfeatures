@@ -1,7 +1,17 @@
 JACCARD = document.getElementById('jaccard');
 layout = {
   showlegend: true,
-  legend: {"orientation": "h"},
+  legend: {"orientation": "h", "y": -.2},
+  xaxis: {
+    title: {
+      text: 'Jaccard Index',
+    }
+  },
+  yaxis: {
+    title: {
+      text: 'OOD Success Rate',
+    }
+  },
 };
 Plotly.newPlot( JACCARD, [
   {
@@ -16,7 +26,17 @@ Plotly.newPlot( JACCARD, [
 SHAPE = document.getElementById('shape');
 layout = {
   showlegend: true,
-  legend: {"orientation": "h"},
+  legend: {"orientation": "h", "y": -.2},
+  xaxis: {
+    title: {
+      text: 'Shape-Bias',
+    }
+  },
+  yaxis: {
+    title: {
+      text: 'OOD Success Rate',
+    }
+  },
 };
 Plotly.newPlot( SHAPE, [
   {
@@ -39,7 +59,17 @@ Plotly.newPlot( SHAPE, [
 IMAGENET = document.getElementById('imagenet');
 layout = {
   showlegend: true,
-  legend: {"orientation": "h"},
+  legend: {"orientation": "h", "y": -.2},
+  xaxis: {
+    title: {
+      text: 'ImageNet Accuracy',
+    }
+  },
+  yaxis: {
+    title: {
+      text: 'OOD Success Rate',
+    }
+  },
 };
 Plotly.newPlot( IMAGENET, [
   {
@@ -62,7 +92,17 @@ Plotly.newPlot( IMAGENET, [
 INDOMAIN = document.getElementById('indomain');
 layout = {
   showlegend: true,
-  legend: {"orientation": "h"},
+  legend: {"orientation": "h", "y": -.2},
+  xaxis: {
+    title: {
+      text: 'In-Domain Success Rate',
+    }
+  },
+  yaxis: {
+    title: {
+      text: 'OOD Success Rate',
+    }
+  },
 };
 Plotly.newPlot( INDOMAIN, [
   {
