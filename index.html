@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Spatial features predict robust transfer in pre-trained visual representations.">
-  <meta name="keywords" content="Spatial-Features, PVR Analysis">
+        content="Segmenting-features predict robust transfer in pre-trained visual representations.">
+  <meta name="keywords" content="Segmenting-Features, PVR Analysis">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>What Makes Pre-Trained Visual Representations Successful for Robust Manipulation?</title>
+  <title>Segmenting-Features</title>
 
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -116,7 +116,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/stanford-iris-lab/spatial_feats/tree/eval"
+                <a href="https://github.com/stanford-iris-lab/segmenting_feats/tree/eval"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -191,7 +191,7 @@
     <div class="container">
       <h2 class="title is-3"> What predicts the generalizability of a Pre-Trained Visual Representation (PVR)? </h2>
       <p>We find that the emergent segmentation performance of a ViT model, 
-        which we refer to as <b>Spatial Features</b>, strongly predicts generalization performance.
+        which we refer to as <b>Segmenting-Features</b>, strongly predicts generalization performance.
         In the example below, we visualize the attention of a ViT that has a high emergent segmentation performance:
         MoCo-v3. Policies trained on top of this model are successful zero-shot in 6 out of the 10 distribution shifts depicted below.
       </p>
@@ -249,7 +249,7 @@
 <section class="hero is-light is-small"> 
   <div class="hero-body">
     <div class="container">
-      <p>Models that don't have spatial features, such as Masked Visual Pre-training (MVP), are less successful at generalizing
+      <p>Models that don't have segmenting-features, such as Masked Visual Pre-training (MVP), are less successful at generalizing
         to new visual appearances. In the example below, a policy learned on top of MVP only generalizes to 3
         out of 10 visual shifts. This is surprising because MVP is designed for manipulation and control tasks.
        </p>
@@ -308,7 +308,7 @@
     <h2 class="title is-3">Different Metrics of Generalizability</h2>
     <p>
       We can evaluate the example above quantitatively. Specifically <b>we measure the predictive power
-      of spatial features by correlating the Jaccard index of the attention heads of different 
+      of segmenting-features by correlating the Jaccard index of the attention heads of different 
       pre-trained models with the out-of-distribution performance</b> of a downstream policy.
       This metric is more predictive than other metrics of generalizability, such as downstream ImageNet accuracy,
       in-domain accuracy, or shape-bias as evaluated by cue-conflict performance.
@@ -419,7 +419,7 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/spatialfeatures_paper.pdf">
+         href="./static/segmentingfeatures_paper.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
       <a class="icon-link" href="https://github.com/kayburns" class="external-link" disabled>

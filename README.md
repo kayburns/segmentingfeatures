@@ -1,6 +1,6 @@
-# Spatial Features
+# Segmenting-Features
 
-This is the repository that contains source code for the [Spatial Feat website](https://kayburns.github.io/spatialfeatures/). Please see our preprint for more details
+This is the repository that contains source code for the [Segmenting-Features website](https://kayburns.github.io/segmentingfeatures/). Please see our preprint for more details
 
 If you find our paper useful for your work please cite:
 ```
